@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[name="phonenumber"] {
+  width: 282px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid black;
+  outline: 0;
+}
+
+input[name="phonenumber"]::placeholder {
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  padding: 8px;
+}
+
+div.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper p {
+  font-size: 12px;
+  color: red;
+  margin-top: 8px;
+  margin-left: 4px;
+}

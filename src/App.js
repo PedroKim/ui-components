@@ -1,7 +1,13 @@
-function App() {
+import Header from "./components/Header";
+import PhoneNumberInput from "./components/inputs/PhoneNumberInput";
+
+const App = () => {
   return (
-    <h1>Hello from App</h1>
+    <>
+      <Header />
+      <PhoneNumberInput />
+    </>
   );
-}
+};
 
 export default App;
